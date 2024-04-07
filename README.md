@@ -1,5 +1,7 @@
 # PowerPoint Presentation Generator with GPT-3.5-turbo and DALL·E 3
 
+<img src="presentation generator 1.png">
+
 This application generates PowerPoint presentations using OpenAI's GPT-3.5-turbo language model and DALL·E 3 image generation model. Users can input a topic and the number of slides they want, and the application will generate slide titles and content, along with relevant images, for the presentation.
 
 ## Features
