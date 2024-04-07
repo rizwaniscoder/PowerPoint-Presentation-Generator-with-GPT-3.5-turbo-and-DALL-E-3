@@ -20,7 +20,57 @@ Before running the application, make sure you have the following:
 
 ## Installation
 
-1. Clone the repository:
+1. **Clone the repository:**
 
-   ```bash
-   git clone https://github.com/your_username/powerpoint-presentation-generator.git
+    ```bash
+    git clone https://github.com/rizwaniscoder/powerpoint-presentation-generator.git
+    ```
+
+2. **Navigate to the project directory:**
+
+    ```bash
+    cd powerpoint-presentation-generator
+    ```
+
+3. **Install dependencies:**
+
+    ```bash
+    pip install -r requirements.txt
+    ```
+
+4. **Set up environment variables:**
+
+    Create a `.env` file in the project directory and add the following:
+
+    ```plaintext
+    OPENAI_API_KEY=your_openai_api_key
+    ```
+
+## Usage
+
+1. **Run the application:**
+
+    ```bash
+    streamlit run main.py
+    ```
+
+2. **Access the application:**
+
+    Open your web browser and go to `http://localhost:8501`.
+
+3. **Enter the topic and number of slides:**
+
+    - Enter the topic for your presentation in the provided text input.
+    - Specify the number of slides you want using the number input field.
+
+4. **Generate the presentation:**
+
+    Click on the "Generate Presentation" button.
+
+5. **Download the presentation:**
+
+    Once the presentation is generated successfully, a download link will appear. Click on the link to download the PowerPoint file.
+
+## License
+
+This project is licensed under the [MIT License](LICENSE).
